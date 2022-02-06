@@ -1,0 +1,528 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+br.clear{
+	clear: both;
+	line-height: 0;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+body{
+ 	font-family: 'open_sansregular',Arial, Helvetica, sans-serif;
+}
+@font-face {
+font-family: 'Gordita Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Gordita Regular'), url('fonts/Gordita Regular.woff') format('woff');
+}
+@font-face {
+font-family: 'Gordita Thin';
+font-style: normal;
+font-weight: normal;
+src: local('Gordita Thin'), url('fonts/Gordita Thin.woff') format('woff');
+}
+@font-face {
+font-family: 'Gordita Light';
+font-style: normal;
+font-weight: normal;
+src: local('Gordita Light'), url('fonts/Gordita Light.woff') format('woff');
+}	
+@font-face {
+font-family: 'Gordita Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Gordita Medium'), url('fonts/Gordita Medium.woff') format('woff');
+}
+@font-face {
+font-family: 'Gordita Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Gordita Bold'), url('fonts/Gordita Bold.woff') format('woff');
+}
+@font-face {
+font-family: 'Gordita Ultra';
+font-style: normal;
+font-weight: normal;
+src: local('Gordita Ultra'), url('fonts/Gordita Ultra.woff') format('woff');
+}
+/*start from here*/
+header{
+	padding-top: 2%;
+}
+header section.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+header section.wrapper nav.left{
+	width: 20%;
+	display: inline-block;
+}
+header section.wrapper nav.left h1{
+	width: 50%;
+}
+header section.wrapper nav.left h1 img{
+	width: 100%;
+	display: block;
+}
+header section.wrapper nav.left h1 img:hover{
+	transition-property: all;
+	transition-duration: .5s;
+	width: 130px;
+}
+header section.wrapper nav.middle{
+	width: 40%;
+	display: inline-block;
+	padding-left: 8%;
+	margin-top: 8px;
+}
+header section.wrapper nav.middle ul{ 
+	display: flex;
+	justify-content: space-around;
+}
+header section.wrapper nav.middle ul li{ 
+	font-family: 'Gordita Regular';
+}
+header section.wrapper nav.middle ul li.li-one a{
+	color: #000;
+	font-weight: bold;
+}
+header section.wrapper nav.middle ul li a:hover{
+	transition-property: all;
+	transition-duration: .1s;
+	font-size: 18px;
+}
+header section.wrapper nav.middle ul li.li-one hr{
+	width: 30px;
+	margin: 0 auto;
+	border: 1px solid #E8819A;
+}
+header section.wrapper nav.middle ul li a{ 
+	color: #888398;
+}
+header section.wrapper nav.middle ul li a.one{
+	color: #000;
+}
+header section.wrapper nav.right{
+	display: inline-block;
+	margin-top: 8px;
+}
+header section.wrapper nav.right ul{ 
+	display: flex;
+}
+header section.wrapper nav.right ul li{ 
+	font-family: 'Gordita Regular';
+}
+header section.wrapper nav.right ul li:hover{
+	transition-property: all;
+	transition-duration: .1s;
+	font-size: 18px;
+}
+header section.wrapper nav.right ul li a{ 
+	color: #888398;
+	font-size: 15px;
+}
+header section.wrapper nav.right ul li a.button{ 
+    background: linear-gradient(100deg,#F66A81,#F67E70,#D172AF);
+    padding: 14px 28px;
+    border-radius: 12px;
+    color: #fff;
+    margin-left: 35px;
+}
+/*next section*/
+section#spotlight{
+	padding-top: 3%;
+}
+section#spotlight section.container{
+	width: 90%;
+	margin: 0 auto;
+	background: #F8F8FA;
+	border-radius: 8px;
+	height: 692px;
+}
+section#spotlight section.container section.left{
+	padding-top: 9%;
+	margin-left: 7%;
+}
+section#spotlight section.container section.left span{
+	color: #8A8599;
+	font-family: 'Gordita Regular';
+	font-weight: bold;
+	font-size: 16px;
+}
+section#spotlight section.container section.left h1{
+	font-family: 'Gordita bold';
+	font-size: 52px;
+	font-weight: bold;
+	line-height: 1.3em;
+	margin-top: 12px;
+	margin-bottom: 24px;
+}
+section#spotlight section.container section.left p{
+	color: #8A8599;
+	font-family: 'Gordita Regular';
+	font-weight: bold;
+	font-size: 16px;
+}
+section#spotlight section.container section.left a.button{
+	background: linear-gradient(100deg,#F66A81,#F67E70,#D172AF);
+    padding: 15px 30px;
+    border-radius: 12px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+    font-family: 'Gordita Regular';
+}
+section#spotlight section.container section.left a.button:hover{
+	font-size: 18px;
+	transition-property: all;
+	transition-duration: .1s;
+}
+section#spotlight section.container section.right{
+	width: 50%;
+}
+section#spotlight section.container section.right img{
+	width: 100%;
+	border-top-right-radius: 8px;
+ 
+}
+/*next section*/
+section#work{
+	padding-top: 7%;
+	padding-bottom: 5%;
+}
+section#work section.wrapper{
+	width: 75%;
+	margin: 0 auto;
+}
+section#work section.wrapper section.top{
+	text-align: center;
+	font-family: 'Gordita Regular';
+}
+section#work section.wrapper section.top h1{
+	font-size: 38px;
+	color: #000;
+}
+section#work section.wrapper section.top p{
+	color: #8A8599;
+	font-size: 15px;
+	line-height: 1.7em;
+	margin-top: 20px;
+}
+section#work section.wrapper section.bottom{
+	margin-top: 50px;
+	position: relative;
+}
+section#work section.wrapper section.bottom img{
+	position: absolute;
+	left: 125px;
+	width: 78%;
+}
+section#work section.wrapper section.bottom ul{
+	display: flex;
+	/*justify-content: space-between;*/
+	position: relative;
+}
+section#work section.wrapper section.bottom ul li{
+	width: 26%;
+	margin-left: 74px;
+}
+section#work section.wrapper section.bottom ul li:nth-child(3){
+	margin-right: 0;
+}
+section#work section.wrapper section.bottom ul li div.overlay{
+	height: 185px;
+	margin-bottom: 12px;
+}
+section#work section.wrapper section.bottom ul li div.overlay.one{
+	background: url('./images/information.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right 55px center;
+}
+section#work section.wrapper section.bottom ul li div.overlay.two{
+	background: url('./images/Data Secure.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right 55px center;
+}
+section#work section.wrapper section.bottom ul li div.overlay.three{
+	background: url('./images/Add cards.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right 25px center;
+	position: relative;
+	background-size: 360px;
+}
+section#work section.wrapper section.bottom ul li div.overlay.three h1{
+	position: absolute;
+	top: 88px;
+	left: 25px;
+	font-size: 10px;
+	font-family: 'Gordita bold';
+}
+section#work section.wrapper section.bottom ul li h3{
+	color: #000;
+	font-size: 20px;
+	font-family: 'Gordita Regular';
+}
+section#work section.wrapper section.bottom ul li p{
+	color: #8A8599;
+	line-height: 1.8em;
+	margin-top: 15px;
+	font-family: 'Gordita Regular';
+	font-weight: bold;
+	font-size: 15px;
+}
+/*next section*/
+section#start{
+
+}
+section#start section.wrapper{
+	 width: 80%;
+	 margin: 0 auto;
+}
+section#start section.wrapper section.left{
+	width: 45%;	
+}
+section#start section.wrapper section.left img{
+	width: 100%;
+	display: block;
+}
+section#start section.wrapper section.right{
+	width: 40%;
+	padding-top: 15%;
+}
+section#start section.wrapper section.right div.top{
+	
+}
+section#start section.wrapper section.right div.top h1{
+	color: #000;
+	font-family: 'Gordita Regular';
+	font-size: 35px;
+}
+section#start section.wrapper section.right div.top p{
+	color: #8A8599;
+	font-family: 'Gordita Regular';
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.8em;
+	margin-top: 25px;
+}
+section#start section.wrapper section.right div.bottom{
+	margin-top: 45px;
+}
+section#start section.wrapper section.right div.bottom ul{
+
+}
+section#start section.wrapper section.right div.bottom ul li{
+	display: flex;
+	align-items: center;
+	border: 1px solid #4C4C4C;
+	width: 35%;
+	padding: 12px 12px;
+	border-radius: 22px;
+}
+section#start section.wrapper section.right div.bottom ul li img{
+	width: 26%;
+}
+section#start section.wrapper section.right div.bottom ul li span{
+	font-family: 'Gordita Regular';
+	color: #4B4B4B;
+	font-weight: bold;
+	font-size: 16px;
+	margin-left: 25px;
+}
+section#start section.wrapper section.right div.bottom ul li.li-two{
+	padding: 10px 13px;
+	margin-top: 30px;
+	border-radius: 20px;
+}
+section#start section.wrapper section.right div.bottom ul li.li-two img{
+	width: 24%;
+}
+/*next section*/
+section#banking{
+
+}
+section#banking section.wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+section#banking section.wrapper section.left{
+	padding-top: 15%;
+}
+section#banking section.wrapper section.left h1{
+	font-size: 45px;
+	font-family: 'Gordita Regular';
+	line-height: 1.3em;
+	margin-bottom: 30px;
+}
+section#banking section.wrapper section.left p{
+	color: #8A8599;
+	font-family: 'Gordita Regular';
+	font-size: 	16px;
+	line-height: 1.8em;
+}
+section#banking section.wrapper section.left a.button{
+	display: inline-block;
+	border: 2px solid #DD7691;
+	color: #000;
+	padding: 15px 30px;
+	border-radius: 12px;
+	margin-top: 40px;
+	font-family: 'Gordita Regular';
+}
+section#banking section.wrapper section.right{
+	width: 45%;
+}
+section#banking section.wrapper section.right img{
+	width: 100%;
+	display: block;
+}
+/*next section*/
+section#subscribe{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+section#subscribe section.container{
+	text-align: center;
+}
+section#subscribe section.container div.top{
+	
+}
+section#subscribe section.container div.top h1{
+	font-size: 40px;
+	margin-bottom: 16px;
+}
+section#subscribe section.container div.top p{
+	color: #8A8599;
+	font-size: 16px;
+}
+section#subscribe section.container div.bottom{
+	margin-top: 45px;
+}
+section#subscribe section.container div.bottom form{
+	position: relative;
+}
+section#subscribe section.container div.bottom form input#text{
+	padding: 25px 300px 25px 25px;
+	outline: none;
+	border: none;
+	border: 1px solid silver;
+	border-radius: 12px;
+}
+section#subscribe section.container div.bottom form input#submit{
+	background: linear-gradient(100deg,#F66A81,#F67E70,#D172AF);
+    padding: 16px 32px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    position: absolute;
+    right: 435px;
+    top: 8px;
+    font-family: 'Gordita Regular';
+}
+/*next section*/
+footer{
+	padding-bottom: 2%;
+}
+footer section.container{
+	width: 90%;
+	margin: 0 auto;
+	background: #F8F8F8;
+	padding-top: 5%;
+	border-radius: 4px;
+}
+footer section.container section.left{
+	margin-left: 8%;
+}
+footer section.container section.left h1{
+	width: 60%;
+}
+footer section.container section.left h1 img{
+	width: 100%;
+	display: block;
+}
+footer section.container section.left p{
+	font-family: 'Gordita Regular';
+	color: #8A8599;
+	font-size: 15px;
+	line-height: 1.8em;
+	margin-top: 18px;
+}
+footer section.container section.left ul{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 70%;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+footer section.container section.left ul li{
+	background: #ECECEE;
+	text-align: center;
+}
+footer section.container section.left ul li.img-li-one{
+	padding: 7px 14px;
+	border-radius: 4px;
+}
+footer section.container section.left ul li.img-li-two{
+	padding: 5px 9px;
+	border-radius: 4px;
+}
+footer section.container section.left ul li.img-li-three{
+	padding: 6px 12px;
+	border-radius: 4px;
+}
+footer section.container section.left ul li a img{
+	width: 85%;
+}
+footer section.container section.right{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-right: 8%;
+	justify-content: space-between;
+	width: 50%;
+}
+footer section.container section.right div.item{
+	
+}
+footer section.container section.right div.item h3{
+	font-size: 15px;
+}
+footer section.container section.right div.item ul{
+	margin-top: 20px;
+}
+footer section.container section.right div.item ul li{
+	margin-bottom: 15px;
+}
+footer section.container section.right div.item ul li a{
+	color: #8A8599;
+	font-size: 15px;
+}
+footer section.container section.bottom{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+footer section.container section.bottom p{
+	color: #8A8599;
+	font-size: 16px;
+}
+footer section.container section.bottom p a{
+	color: #8A8599;
+}
+footer section.container section.bottom p a:hover{
+	text-decoration: revert;
+}
